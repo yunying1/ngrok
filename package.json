@@ -1,5 +1,5 @@
 {
-  "name": "ngrok",
+  "name": "ngrok-electron",
   "version": "4.3.3",
   "description": "node wrapper for ngrok",
   "main": "index.js",
@@ -26,7 +26,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/bubenshchykov/ngrok.git"
+    "url": "git://github.com/yunying1/ngrok.git"
   },
   "keywords": [
     "ngrok",
@@ -38,7 +38,7 @@
   "author": "bubenshchykov",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/bubenshchykov/ngrok/issues"
+    "url": "https://github.com/yunying1/ngrok/issues"
   },
   "devDependencies": {
     "chai": "^4.3.4",
