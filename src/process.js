@@ -1,5 +1,6 @@
 const { promisify } = require("util");
-const { spawn, exec: execCallback } = require("child_process");
+const { execFile, exec: execCallback } = require("child_process");
+const spawn = execFile;
 const exec = promisify(execCallback);
 const platform = require("os").platform();
 const { join } = require("path");
